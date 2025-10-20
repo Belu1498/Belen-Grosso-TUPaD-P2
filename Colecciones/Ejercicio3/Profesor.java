@@ -24,7 +24,7 @@ public class Profesor {
         if (c != null && !cursos.contains(c)) {
             cursos.add(c);
             if (c.getProfesor() != this) {
-                c.setProfesor(this); // sincroniza el otro lado
+                c.setProfesor(this); 
             }
         }
     }
@@ -32,7 +32,7 @@ public class Profesor {
     public void eliminarCurso(Curso c) {
         if (c != null && cursos.remove(c)) {
             if (c.getProfesor() == this) {
-                c.setProfesor(null); // quita referencia del curso
+                c.setProfesor(null); 
             }
         }
     }
