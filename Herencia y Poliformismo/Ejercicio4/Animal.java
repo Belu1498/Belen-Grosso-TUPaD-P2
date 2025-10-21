@@ -8,12 +8,12 @@ public class Animal {
         this.nombre = nombre;
     }
 
-    // Método que será sobrescrito
+    // metodo que va a ser sobrescrito
     public void hacerSonido() {
         System.out.println("El animal hace un sonido generico.");
     }
 
-    // Método común a todos
+    // el metodo comun a todos
     public void describirAnimal() {
         System.out.println("Soy un animal llamado " + nombre + ".");
     }
