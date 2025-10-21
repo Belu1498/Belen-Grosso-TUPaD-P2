@@ -10,7 +10,7 @@ public class Animal {
 
     // Método que será sobrescrito
     public void hacerSonido() {
-        System.out.println("El animal hace un sonido genérico.");
+        System.out.println("El animal hace un sonido generico.");
     }
 
     // Método común a todos
