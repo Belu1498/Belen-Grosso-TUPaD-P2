@@ -10,10 +10,10 @@ public abstract class Empleado {
         this.dni = dni;
     }
 
-    // Método abstracto: cada tipo de empleado calcula su sueldo distinto
+    // metodo abstracto
     public abstract double calcularSueldo();
 
-    // Método común para mostrar información
+    // metodo comun para mostrar informacion
     public void mostrarInfo() {
         System.out.println("Empleado: " + nombre + " | DNI: " + dni);
         System.out.println("Sueldo: $" + calcularSueldo());
