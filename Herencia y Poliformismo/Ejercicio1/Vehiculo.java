@@ -2,13 +2,13 @@ public class Vehiculo {
     protected String marca;
     protected String modelo;
 
-    // Constructor
+    // el constructor
     public Vehiculo(String marca, String modelo) {
         this.marca = marca;
         this.modelo = modelo;
     }
 
-    // Método para mostrar información
+    // metodo para mostrar informacion
     public void mostrarInfo() {
         System.out.println("Marca: " + marca);
         System.out.println("Modelo: " + modelo);
