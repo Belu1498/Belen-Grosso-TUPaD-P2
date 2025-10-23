@@ -1,13 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package ejercicio2;
 
-/**
- *
- * @author belen
- */
 public class VerificarEdad {
     public static void main(String[] args) {
         try {
@@ -24,3 +17,4 @@ public class VerificarEdad {
         System.out.println("Edad válida: " + edad);
     }
 }
+
